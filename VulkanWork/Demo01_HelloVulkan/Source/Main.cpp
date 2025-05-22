@@ -19,7 +19,7 @@ int main()
 	glfwSwapInterval(1);
 	uint32_t extensionCount = 0;
 	vkEnumerateInstanceExtensionProperties(nullptr, &extensionCount, nullptr);
-	std::cout << extensionCount << "extensions supported" << std::endl;
+	std::cout << extensionCount << " extensions supported" << std::endl;
 	while (!glfwWindowShouldClose(pWindow))
 	{
 		glfwPollEvents();

@@ -33,3 +33,6 @@
 
 # CMake build folder
 [Bb]uild/
+
+# Linux Clangd .cache
+.cache/
