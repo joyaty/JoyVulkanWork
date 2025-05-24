@@ -15,5 +15,8 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 ## 第三方库-GLFW
 add_subdirectory(${CMAKE_SOURCE_DIR}/ThirdParts/GLFW)
 
+## 基础库
+add_subdirectory(${CMAKE_SOURCE_DIR}/VulkanWork/Engine)
+
 ## Demo01 - HelloVulkan
 add_subdirectory(${CMAKE_SOURCE_DIR}/VulkanWork/Demo01_HelloVulkan)
